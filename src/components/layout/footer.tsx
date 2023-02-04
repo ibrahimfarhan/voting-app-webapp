@@ -7,7 +7,7 @@ const Footer = () => {
     <footer>
       <p className={styles.sentence}>Developed and maintained by Ibrahim Farhan</p>
       <div className={styles.icons}>
-        <a target="blank" className={styles.icon} href="https://linkedin.com/in/ibrahimahmadfarhan">
+        <a target="blank" className={styles.icon} href="https://linkedin.com/in/ibrahimafarhan">
           <FaLinkedin
             color="#0072B1"
             size="2rem"
