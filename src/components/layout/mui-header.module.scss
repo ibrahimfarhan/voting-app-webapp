@@ -1,0 +1,69 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 0;
+  height: 4rem;
+  min-height: 4rem;
+  align-items: center;
+  padding: 0 2rem;
+  box-shadow: 0 0 3px var(--dark-gray);
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+  background-color: var(--bg-color);
+}
+
+.logo {
+  display: flex;
+  min-width: 10rem;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.menuButton {
+  margin-right: 2rem;
+}
+
+.sectionDesktop {
+  display: flex;
+}
+
+.title {
+  margin-left: 1rem;
+}
+
+.sectionMobile {
+  display: none;
+}
+
+.avatar {
+  cursor: pointer;
+  background-color: var(--blue) !important;
+  margin-left: 2rem;
+  color: white !important;
+}
+
+menu {
+  margin-top: 0.3rem;
+}
+
+img {
+  height: 2rem
+}
+
+.loggedIn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.darkIcon {
+  color: black;
+  cursor: pointer;
+}
+
+.lightIcon {
+  color: white;
+  cursor: pointer;
+}

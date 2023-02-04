@@ -1,0 +1,51 @@
+@import '../../sass/shared';
+
+.team {
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.input {
+  padding: 1rem !important;
+  width: 20rem !important;
+  font-size: 1.2rem !important;
+  line-height: 1.2rem !important;
+  min-height: 2rem !important;
+}
+
+.title {
+  text-align: left;
+  margin: 0;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.team-form {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  margin-bottom: 1rem;
+  max-width: 25rem;
+}
+
+.name-label {
+  margin-right: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.public {
+  margin-bottom: 0.8rem;
+  margin-left: 1rem;
+}
+
+.delete {
+  align-self: flex-start;
+}
+
+.delete-icon {
+  font-size: 2.5rem !important;
+}

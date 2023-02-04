@@ -1,0 +1,14 @@
+@import '../../sass/shared';
+
+.container {
+  text-align: center;
+  width: max-content;
+  margin: 4rem auto;
+}
+
+.error {
+  display: inline-block;
+  margin: 1rem 0;
+  color: var(--error-color);
+  font-size: 1.3rem;
+}

@@ -1,0 +1,16 @@
+@import '../../sass/shared';
+
+.table {
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.empty {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid var(--dark-gray);
+  border-radius: 10px;
+  box-shadow: 0 0 5px var(--dark-gray);
+  font-size: 2rem;
+}

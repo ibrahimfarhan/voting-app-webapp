@@ -1,0 +1,23 @@
+@import '../../sass/shared';
+
+.container {
+  text-align: center;
+}
+
+.tab-buttons {
+  display: flex;
+  align-items: stretch;
+}
+
+.btn {
+  &--stretched {
+    width: 100%;
+  }
+  &--squashed {
+    width: max-content;
+  }
+}
+
+.loading {
+  margin-top: 5rem;
+}

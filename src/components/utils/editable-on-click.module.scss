@@ -1,0 +1,50 @@
+@import '../../sass/shared';
+
+.text {
+  display: inline-block;
+  margin: 0;
+  width: 50rem;
+  overflow-y: hidden;
+  overflow-x: auto;
+  line-height: 2rem;
+  padding: 1rem;
+  outline: none;
+  height: 4rem;
+  white-space: nowrap;
+  text-decoration: none;
+  color: inherit;
+  border: var(--border-color) solid 1px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
+  text-align: left;
+}
+
+.empty {
+  text-align: center;
+  color: gray;
+}
+
+.editable {
+  border: 1px solid var(--blue);
+}
+
+.text::-webkit-scrollbar {
+  background: var(--scrollbar-bg-color);
+}
+
+.text::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-color);
+}
+
+.error {
+  margin: 0;
+  padding: 0;
+  color: var(--red);
+  height: 1rem;
+  font-size: 1rem;
+}
+
+.disabled {
+  border: none;
+}

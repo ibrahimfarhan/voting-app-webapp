@@ -1,0 +1,15 @@
+@import '../../sass/shared';
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.msg {
+  padding: 1rem 2rem 2rem 2rem;
+  font-size: 1.5rem;
+}
+
+.error {
+  color: var(--error-color);
+}

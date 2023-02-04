@@ -1,0 +1,12 @@
+@import '../../sass/shared';
+
+.invite-link {
+  padding: 1rem 2rem 2rem 2rem;
+  word-wrap: anywhere;
+}
+
+.invite-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

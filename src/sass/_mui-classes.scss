@@ -1,0 +1,25 @@
+.MuiButton-label {
+  font-size: 1.2rem;
+}
+
+.MuiTableCell-root {
+  font-size: inherit;
+  // border-color: var(--font-color) !important;
+  border: none !important;
+}
+
+.MuiTableRow-root {
+  &:last-child {
+    td {
+      border-bottom: none
+    }
+  }
+}
+
+.MuiTableCell-body, .MuiTableCell-head {
+  color: var(--font-color) !important;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: var(--bg-color) !important;
+}

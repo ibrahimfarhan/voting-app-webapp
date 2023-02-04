@@ -1,0 +1,34 @@
+@import '../../sass/shared';
+
+.form {
+  padding: 1rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.msg {
+  height: 2rem;
+  margin: 0;
+}
+
+.input {
+  margin-bottom: 1.5rem;
+}
+
+.last {
+  margin-bottom: 1rem;
+}
+
+.btn {
+  max-width: 7rem;
+  margin-right: 1rem;
+}
+
+.btns {
+  display: flex;
+}
+
+.delete {
+  align-self: flex-start;
+}

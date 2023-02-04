@@ -1,0 +1,21 @@
+@import '../../sass/shared';
+
+.container {
+  padding: 0 2rem 2rem 2rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.teams {
+  font-size: 1.2rem;
+  box-shadow: 0 0 20px var(--dark-gray);
+  border: 1px solid var(--gray);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,12 @@
+@import './variables';
+
+:export {
+  blue: var(--blue);
+  red: var(--red);
+  lightBlue: var(--light-blue);
+  darkBg: var(--dark-bg-color);
+  darkerBg: var(--darker-bg-color);
+  darkGray: var(--dark-gray);
+  headerBg: var(--header-bg-color);
+  mainFontFamily: var(--main-font-family);
+}
