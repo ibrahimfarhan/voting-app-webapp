@@ -58,7 +58,6 @@ const MembersTable = ({ allMembers: members, isAdmin, adminIds, teamId, currentU
         <TableHead>
           <TableRow>
             <StyledTableCell key="username" align="left"><strong>Username</strong></StyledTableCell>
-            <StyledTableCell key="email" align="left"><strong>Email</strong></StyledTableCell>
             <StyledTableCell key="role" align="left"><strong>Role</strong></StyledTableCell>
             <ShowFirstChild inCase={Boolean(isAdmin)}>
               <StyledTableCell key="actions" align="left"><strong>Actions</strong></StyledTableCell>
@@ -69,7 +68,6 @@ const MembersTable = ({ allMembers: members, isAdmin, adminIds, teamId, currentU
           {members.map(m => (
             <TableRow key={m.username || m.name}>
               <StyledTableCell key="username">{m.username || m.name}</StyledTableCell>
-              <StyledTableCell key="email" align="left">{m.email}</StyledTableCell>
               <StyledTableCell key="role" align="left">{variableAdminIds[m.id] ? 'Admin' : 'Member'}</StyledTableCell>
               <ShowFirstChild inCase={Boolean(isAdmin)}>
                 <StyledTableCell key="actions" align="left">
